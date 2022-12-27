@@ -1,0 +1,21 @@
+{
+  "name": "component1",
+  "version": "1.0.0",
+  "description": "Component1",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json && swc src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.24",
+    "swc-loader": "^0.2.3"
+  }
+}
