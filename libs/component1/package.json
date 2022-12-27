@@ -21,5 +21,6 @@
     "@swc/cli": "^0.1.57",
     "@swc/core": "^1.3.24",
     "swc-loader": "^0.2.3"
-  }
+  },
+  "gitHead": "2bb0c4f78b455b067d6e7b30f8a5d0146027dd26"
 }
