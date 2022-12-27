@@ -1,7 +1,11 @@
 {
-  "name": "component1",
+  "name": "@valourusorg/component1",
   "version": "1.0.0",
   "description": "Component1",
+  "repository": "https://github.com/valourus/packages-repo-swc-react-libs",
+  "publishConfig": {
+    "@valourusorg:registry": "https://registry.npmjs.com/valourusorg"
+  },
   "main": "build/index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.json && swc src -d dist",
