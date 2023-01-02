@@ -1,0 +1,22 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.3.0',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v6.3.0
+2 verbose rootPath C:\Users\koen\Documents\code\packages-test\package-based
+3 info versioning independent
+4 error JSONError: Unexpected token "}" (0x7D) in JSON at position 463 while parsing near "...ied\\\" && exit 1\",\n  },\n  \"author\": \"\",\n ..." in libs\header\package.json
+4 error
+4 error [0m [90m 14 |[39m     [32m"build"[39m[33m:[39m [32m"tsc -p ./tsconfig.json && swc src -d dist"[39m[33m,[39m[0m
+4 error [0m [90m 15 |[39m     [32m"test"[39m[33m:[39m [32m"echo \"Error: no test specified\" && exit 1"[39m[33m,[39m[0m
+4 error [0m[31m[1m>[22m[39m[90m 16 |[39m   }[33m,[39m[0m
+4 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+4 error [0m [90m 17 |[39m   [32m"author"[39m[33m:[39m [32m""[39m[33m,[39m[0m
+4 error [0m [90m 18 |[39m   [32m"license"[39m[33m:[39m [32m"MIT"[39m[33m,[39m[0m
+4 error [0m [90m 19 |[39m   [32m"dependencies"[39m[33m:[39m {[0m
+4 error
+4 error     at parseJson (C:\Users\koen\Documents\code\packages-test\package-based\node_modules\parse-json\index.js:29:21)
+4 error     at parse (C:\Users\koen\Documents\code\packages-test\package-based\node_modules\load-json-file\index.js:15:9)
+4 error     at module.exports (C:\Users\koen\Documents\code\packages-test\package-based\node_modules\load-json-file\index.js:18:47)
