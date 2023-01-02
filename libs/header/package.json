@@ -6,9 +6,6 @@
     "type": "git",
     "url": "git+https://github.com/valourus/packages-repo-swc-react-libs.git"
   },
-  "publishConfig": {
-    "@valourusorg:registry": "https://registry.npmjs.com/valourusorg"
-  },
   "main": "build/index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.json & swc src -d dist",
