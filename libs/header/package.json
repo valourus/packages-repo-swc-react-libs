@@ -1,15 +1,18 @@
 {
-  "name": "@valourusorg/component1",
+  "name": "@valourus1142/header",
   "version": "1.1.0",
-  "description": "Component1",
-  "repository": "https://github.com/valourus/packages-repo-swc-react-libs",
+  "description": "header",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valourus/packages-repo-swc-react-libs.git"
+  },
   "publishConfig": {
     "@valourusorg:registry": "https://registry.npmjs.com/valourusorg"
   },
   "main": "build/index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.json && swc src -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "author": "",
   "license": "MIT",
@@ -22,5 +25,8 @@
     "@swc/core": "^1.3.24",
     "swc-loader": "^0.2.3"
   },
-  "gitHead": "2bb0c4f78b455b067d6e7b30f8a5d0146027dd26"
+  "bugs": {
+    "url": "https://github.com/valourus/packages-repo-swc-react-libs/issues"
+  },
+  "homepage": "https://github.com/valourus/packages-repo-swc-react-libs#readme"
 }
