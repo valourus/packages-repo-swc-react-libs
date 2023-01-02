@@ -1,7 +1,7 @@
 {
-  "name": "@valourus1142/foto-text-with-button",
-  "version": "1.2.0",
-  "description": "Foto text with CTA button",
+  "name": "@valourus1142/photo-text-with-button",
+  "version": "1.0.0",
+  "description": "photo text with button",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valourus/packages-repo-swc-react-libs.git"
@@ -11,7 +11,7 @@
   },
   "main": "build/index.js",
   "scripts": {
-    "build": "tsc -p ./tsconfig.json & swc src -d dist",
+    "build": "tsc -p ./tsconfig.json && swc src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
