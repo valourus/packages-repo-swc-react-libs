@@ -2,7 +2,7 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "npmScope": "package-based",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "main"
   },
   "tasksRunnerOptions": {
     "default": {
@@ -10,9 +10,7 @@
       "options": {
         "cacheableOperations": [
           "build",
-          "lint",
-          "test",
-          "e2e"
+          "test"
         ]
       }
     }
