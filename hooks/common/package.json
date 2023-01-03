@@ -1,7 +1,7 @@
 {
-  "name": "@valourus1142/photo-text-with-button",
-  "version": "1.1.1",
-  "description": "photo text with button",
+  "name": "@valourus1142/common",
+  "version": "1.2.1",
+  "description": "Common utils",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valourus/packages-repo-swc-react-libs.git"
