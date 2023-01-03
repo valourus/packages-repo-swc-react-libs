@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/valourus/packages-repo-swc-react-libs.git"
   },
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.json & swc --config-file ../../.swc.json src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/valourus/packages-repo-swc-react-libs/issues"
   },
-  "homepage": "https://github.com/valourus/packages-repo-swc-react-libs#readme"
+  "homepage": "https://github.com/valourus/packages-repo-swc-react-libs#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

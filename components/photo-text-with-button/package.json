@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/valourus/packages-repo-swc-react-libs.git"
   },
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.json & swc --config-file ../../.swc.json src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,8 @@
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@valourus1142/common": "^1.2.1"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.57",

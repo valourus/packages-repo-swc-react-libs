@@ -1,17 +1,18 @@
 import React from 'react';
+import {Image} from "@valourus1142/common/src";
 
 export interface PhotoTextWithButtonProps {
-  src: string;
+  img: Image
   text: string;
   button: JSX.Element;
 }
 
 
-export const PhotoTextWithButton = ({ text, button, src }: PhotoTextWithButtonProps) => {
+export const PhotoTextWithButton = ({ text, button, img }: PhotoTextWithButtonProps) => {
 
   return (
     <div>
-      <img src={src} alt={'photo'} />
+      <img src={img.src} alt={img.alt} />
       <p>{text}</p>
       {button}
     </div>
