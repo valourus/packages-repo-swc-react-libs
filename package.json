@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build": "nx affected --target=build",
-    "publish": "npm run build && lerna publish from-package --npm-tag next --conventional-commits",
+    "publish": "npm run build && lerna publish from-package --conventional-commits",
+    "prepublish": "npm run build && lerna publish from-package --npm-tag next --conventional-commits",
     "commit": "git add . && cz"
   },
   "private": true,
