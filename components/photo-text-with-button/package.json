@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/valourus/packages-repo-swc-react-libs/issues"
   },
-  "homepage": "https://github.com/valourus/packages-repo-swc-react-libs#readme"
+  "homepage": "https://github.com/valourus/packages-repo-swc-react-libs#readme",
+  "gitHead": "ca3b7b91cd9b672216d968ac0101331d7b0c80e2"
 }
