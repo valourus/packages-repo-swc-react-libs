@@ -1,16 +1,13 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "./dist/",
-    "sourceRoot": "./src",
-    "noImplicitAny": true,
-    "module": "ES6",
-    "sourceMap": true,
-    "jsx": "react",
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
-    "declaration": true,
-    "moduleResolution": "Node",
-    "incremental": true
-  }
+    "tsBuildInfoFile": "./dist/tsconfig.build.tsbuildinfo",
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "paths": {
+      "src": ["./src"]
+    }
+  },
+  "include": ["./src"]
 }

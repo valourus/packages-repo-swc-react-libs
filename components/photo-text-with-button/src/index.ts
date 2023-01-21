@@ -1,1 +1,1 @@
-export { PhotoTextWithButton, PhotoTextWithButtonProps } from './PhotoTextWithButton';
+export { PhotoTextButtonMarco } from './PhotoTextButtonMarco';
