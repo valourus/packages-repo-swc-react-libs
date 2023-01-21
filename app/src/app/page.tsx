@@ -1,8 +1,8 @@
+import Page from "@/app/[...route]/page";
+import React from "react";
 
 export default async function Home() {
   return (
-   <main>
-     test
-    </main>
-  )
+    <Page params={{ route: ['/'] }} />
+  );
 }

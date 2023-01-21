@@ -1,7 +1,7 @@
 {
-  "name": "@valourus1142/photo-text-with-button",
+  "name": "@valourus1142/common",
   "version": "2.0.0",
-  "description": "photo text with button",
+  "description": "common stuff",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valourus/packages-repo-swc-react-libs.git"
@@ -11,10 +11,9 @@
     "build": "tsc -p ./tsconfig.build.json & swc --config-file ../../.swc.json src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Koen van der Els",
   "license": "MIT",
   "dependencies": {
-    "@valourus1142/common": "^1.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

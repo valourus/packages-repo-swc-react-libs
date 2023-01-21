@@ -1,0 +1,5 @@
+packages:
+  - 'marcos/*'
+  - 'hooks/*'
+  - 'components/**'
+  - 'app'
